@@ -1,82 +1,100 @@
-# LocationTrackerFlutter
-LocationTrackerFlutter is a Flutter-based application designed to track and display member locations and routes. It features Google Maps integration for real-time visualization of current locations, a timeline view of visited locations, and route details such as distance, duration, and stop times.
+📅 Attendance Management & Location Tracker App
 
-**Features**
-**Member List:** View a list of members with quick access to their location and attendance details.
-**Location Tracking:**
-Displays the current location of members on an interactive map.
-Shows a timeline of visited locations with date filters for historical data.
-**Route Details:**
-Generates routes between visited locations.
-Provides details on start and stop locations, total distance traveled, total duration, and stop times.
-**Date Filtering:** Enables users to filter data by specific dates.
+Welcome to the Attendance Management & Location Tracker App, a comprehensive solution for managing attendance records with ease. This app is built using the Flutter framework, providing a seamless and interactive user experience for tracking and managing employee attendance as well as location.
 
-**Screenshots**
-(Add relevant screenshots of your app here after testing, or placeholders for now.)
+📋 Table of Contents
+Features
+Screenshots
+Installation
+Usage
+Technologies Used
+Project Structure
+Contributing
+License
+Contact
 
-**Getting Started**
-**Prerequisites**
-**Flutter SDK:** Install the latest version from Flutter's official website.
-**Google Maps API Key:** Obtain a Google Maps API Key from the Google Cloud Console.
+✨ Features
+🔍 Search Functionality: Quickly find members by name using the search feature.
+🗺️ Map Integration: View the geographical locations of all members on an interactive map.
+📊 Detailed View: Access comprehensive details like in-time, out-time, and address for each member.
+🌐 Cross-Platform: Built with Flutter, this app runs smoothly on both Android and iOS devices.
+📸 Screenshots
 
-**Installation**
-1. Clone the repository:
-git clone https://github.com/<your-username>/LocationTrackerFlutter.git
-cd LocationTrackerFlutter
-2. Install dependencies:
+View and manage attendance records & monitor location.
+
+
+Detailed information about individual members.
+
+🔧 Installation
+Prerequisites
+Flutter SDK: Installation Guide
+IDE: Android Studio or Visual Studio Code for development
+Steps
+Clone the repository:
+
+bash
+git clone (https://github.com/Anshi1102/LocationTrackerFlutter.git)
+cd attendance-management-app
+Install dependencies:
+
+bash
 flutter pub get
-3. Add your **Google Maps API Key**:
-Open android/app/src/main/AndroidManifest.xml and replace <YOUR_API_KEY> with your API key:
-<meta-data
-    android:name="com.google.android.geo.API_KEY"
-    android:value="YOUR_API_KEY"/>
-For iOS, add your API key to ios/Runner/AppDelegate.swift:
-GMSServices.provideAPIKey("YOUR_API_KEY")
-4. Run the app:
+Run the app:
+
+bash
 flutter run
+🚀 Usage
+Home Screen:
 
-**Folder Structure**
+View a list of all members and their attendance records.
+Use the search bar to find specific members.
+Attendance Recording:
+
+Tap on a member to view and edit their attendance details.
+Map View:
+
+Use the "Show All Members" button to view the locations of all members on a map.
+💻 Technologies Used
+Frontend: Flutter, Dart
+State Management: Stateful Widgets
+Plugins:
+google_maps_flutter: For integrating Google Maps.
+geocoding: For converting addresses into geographical coordinates.
+📂 Project Structure
+bash
 lib/
-├── main.dart                   # Entry point of the app
-├── screens/                    # Screens for different app pages
-│   ├── member_list_screen.dart
-│   ├── member_location_screen.dart
-│   ├── route_screen.dart
-├── models/                     # Data models for Member, Location, and Route
-│   ├── member.dart
-│   ├── location.dart
-│   ├── route_data.dart
-├── services/                   # Service for API calls
-│   ├── api_service.dart
-└── widgets/                    # Reusable widgets
-    └── timeline_tile.dart
+│
+├── main.dart                   # Entry point of the application
+├── screens/
+│   └── attendance_page.dart    # Main screen with attendance features
+├── widgets/
+│   ├── member_card.dart        # Widget for displaying member details
+│   ├── date_selector.dart      # Widget for selecting dates
+│   ├── custom_app_bar.dart     # Reusable custom app bar
+│   └── show_map_button.dart    # Button for displaying map
+└── models/
+    └── member_model.dart       # Data model for member information
+🤝 Contributing
+We welcome contributions to make this project even better! To contribute:
 
-**Built With**
-**Flutter-** Cross-platform mobile framework.
-**Google Maps API-** Map rendering and route generation.
-**Dart-** Programming language for Flutter.
+Fork the repository.
+Create a new branch:
+bash
 
-**Future Enhancements**
-Authentication for secure access.
-Real-time location updates.
-Push notifications for significant location changes.
-Improved analytics for travel data.
+git checkout -b feature-branch-name
+Make your changes and commit:
+bash
 
-**Contributing**
-Contributions are welcome! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch:
-git checkout -b feature-name
-3. Commit changes:
-git commit -m "Add your message"
-4. Push to the branch:
-git push origin feature-name
-5. Open a pull request.
+git commit -m 'Add some feature'
+Push to the branch:
+bash
 
-**License**
-This project is licensed under the MIT License. See the LICENSE file for details.
+git push origin feature-branch-name
+Create a pull request.
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Contact**
-**Developer:** Anshika Singh
-**Email:** anshikasingh1102@gmail.com
-**GitHub:** https://github.com/Anshi1102
+📧 Contact
+Anshika Singh
+
+Email: anshikasingh1102@gmail.com
