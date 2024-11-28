@@ -32,16 +32,16 @@ IDE: Android Studio or Visual Studio Code for development
 Steps
 Clone the repository:
 
-bash
+
 git clone (https://github.com/Anshi1102/LocationTrackerFlutter.git)
 cd attendance-management-app
 Install dependencies:
 
-bash
+
 flutter pub get
 Run the app:
 
-bash
+
 flutter run
 🚀 Usage
 Home Screen:
@@ -62,7 +62,7 @@ google_maps_flutter: For integrating Google Maps.
 geocoding: For converting addresses into geographical coordinates.
 
 📂 Project Structure
-bash
+
 lib/
 │
 ├── main.dart                   # Entry point of the application
@@ -81,15 +81,15 @@ We welcome contributions to make this project even better! To contribute:
 
 Fork the repository.
 Create a new branch:
-bash
+
 
 git checkout -b feature-branch-name
 Make your changes and commit:
-bash
+
 
 git commit -m 'Add some feature'
 Push to the branch:
-bash
+
 
 git push origin feature-branch-name
 Create a pull request.
