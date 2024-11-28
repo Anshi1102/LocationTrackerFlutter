@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="lalit_mohan_bhatt_vinove_company"
+        android:label="anshika_singh_vinove_company"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         
