@@ -60,6 +60,7 @@ State Management: Stateful Widgets
 Plugins:
 google_maps_flutter: For integrating Google Maps.
 geocoding: For converting addresses into geographical coordinates.
+
 📂 Project Structure
 bash
 lib/
@@ -74,6 +75,7 @@ lib/
 │   └── show_map_button.dart    # Button for displaying map
 └── models/
     └── member_model.dart       # Data model for member information
+
 🤝 Contributing
 We welcome contributions to make this project even better! To contribute:
 
